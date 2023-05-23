@@ -259,7 +259,7 @@ if wrap_orange == 1 or wrap_banana == 1 or wrap_apple == 1:
 
 # Adding the shipping amount to the total price. 
 
-if total_amount%10 == 0:
+if total_amount % 10 == 0:
 
     package_quantity = int( ( total_amount / 10 ))
 
@@ -275,4 +275,4 @@ shipping_fee = package_quantity * 5
 
 total = total + shipping_fee
 
-print("Your total amount for this order is :", total)
+print("Your total amount for this order is : $", total)
